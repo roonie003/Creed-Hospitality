@@ -438,8 +438,8 @@ img {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 15px;
-    padding: 0 80px;
+    margin:15px;
+    padding: 80px;
     height: 20vh;
     overflow: hidden;
     background-color: #040404;
@@ -453,6 +453,7 @@ img {
     flex-direction: column;
     justify-content: center;
     margin: 30px 50px;
+    
     text-align: center;
 }
 
