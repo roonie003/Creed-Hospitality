@@ -67,7 +67,7 @@ img {
 }
 
 .navbar a:hover {
-    border-bottom: #FDAC53 2px solid;
+    border-bottom: #ffc033 2px solid;
 }
 
 .navbar ul {
@@ -141,14 +141,14 @@ img {
     display: inline-block;
     padding: 10px 30px;
     color: #f5f5f5;
-    border: #FDAC53 2px solid;
+    border: #ffc033 2px solid;
     border-radius: 5px;
 }
 
 .btn:hover {
     opacity: 0.9;
     border: #F5f5f5 2px solid;
-    color: #FDAC53;
+    color: #ffc033;
     transition: all .3s ease-in-out;
 }
 
@@ -238,7 +238,7 @@ img {
 }
 
 .footer a:hover {
-    color: #FDAC53;
+    color: #ffc033;
 }
 
 #double {
@@ -298,7 +298,7 @@ img {
   }
   
   #container {
-    border: solid 3px #FDAC53;
+    border: solid 3px #ffc033;
     margin: 10px;
     max-width: 650px;
     max-height: 650px;
@@ -324,7 +324,7 @@ img {
   input[type='text'], [type='email'], select, textarea {
       background: #040404;
       border: none;
-      border-bottom: 2px solid #FDAC53;
+      border-bottom: 2px solid #ffc033;
       color: #F5f5f5;
       font-size:18px;
       letter-spacing: 1px;
@@ -378,7 +378,7 @@ img {
   
   #form_button {
     background-color: #040404;
-    border: solid 2px #FDAC53;
+    border: solid 2px #ffc033;
     color: #f5f5f5;
     cursor: pointer;
     display: inline-block;
@@ -399,7 +399,7 @@ img {
   #form_button:hover {
     opacity: 0.9;
     border: #F5f5f5 2px solid;
-    color: #FDAC53;
+    color: #ffc033;
     transition: all .3s ease-in-out;
   }
 
@@ -424,7 +424,7 @@ img {
 
   i{
       padding:0 25px;
-      color: #FDAC53;
+      color: #ffc033;
   }
 
 
@@ -445,7 +445,7 @@ img {
     background-color: #040404;
     color: #fff;
     font-size: 30px;
-    border: #FDAC53 2px solid;
+    border: #ffc033 2px solid;
 }
 
 .counter-container {
