@@ -45,7 +45,10 @@ body {
     border-color: #ffc033; 
 }
 
-
+.backhome{
+    font-size: 25px;
+    
+}
 .lead {
     font-size: 1.3rem;
     margin-bottom: 2rem; 
@@ -152,19 +155,62 @@ ul {
       opacity: 0.7;
       margin: 0; }
 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #f5f5f5;
+    border: #ffc033 2px solid;
+    border-radius: 5px;
+}
+    
+.btn:hover {
+    opacity: 0.9;
+    border: #F5f5f5 2px solid;
+    color: #ffc033;
+    transition: all .3s ease-in-out;
+}
+.project-contact{
+    text-align: center;
+    padding: 15px ;
+}
 
-      .footer {
+.project-contact h2{
+    font-size: 60px;
+}
+
+.project-contact p{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+
+
+.footer {
         background-color: #040404;
         text-align: center;
         color: #f5f5f5;
         padding: 15px;
         
-    }
+}
     
-    .footer a {
+.footer a {
         color: #fff;
-    }
+}
     
-    .footer a:hover {
+.footer a:hover {
         color: #ffc033;
-    }
+}
+
+
+@media (max-height: 580px) {
+    #header-home .header-content 
+    {
+        padding-top: 3rem; } 
+}
+      
+@media (max-height: 330px) {
+    #header-home .header-content h1 
+    {
+        font-size: 2rem; } 
+}
