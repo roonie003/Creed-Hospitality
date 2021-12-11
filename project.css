@@ -184,33 +184,3 @@ ul {
     padding-bottom: 25px;
 }
 
-
-
-.footer {
-        background-color: #040404;
-        text-align: center;
-        color: #f5f5f5;
-        padding: 15px;
-        
-}
-    
-.footer a {
-        color: #fff;
-}
-    
-.footer a:hover {
-        color: #ffc033;
-}
-
-
-@media (max-height: 580px) {
-    #header-home .header-content 
-    {
-        padding-top: 3rem; } 
-}
-      
-@media (max-height: 330px) {
-    #header-home .header-content h1 
-    {
-        font-size: 2rem; } 
-}
