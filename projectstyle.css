@@ -108,7 +108,7 @@ ul {
     transform: translateY(0); 
 }
 .item-image {
-    height:fit-content;
+    height:auto;
     transform: translateZ(0);
     display: block;
     transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1); 
