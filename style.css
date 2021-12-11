@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Six+Caps&display=swap');
 
 * {
     box-sizing: border-box;
@@ -11,6 +12,14 @@ body {
     background: #040404;
     color: #f5f5f5;
     line-height: 1.6;
+}
+
+.text-primary{
+    color: #ffc033;
+}
+
+.fnt{
+    font-style: 'Six Caps';
 }
 
 ul {
@@ -80,7 +89,7 @@ img {
 
 /* Header */
 .hero {
-    background: url('images/C7Jwqj.jpg') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;
     height: 100vh;
     position: relative;
     color: #f5f5f5;
@@ -98,6 +107,7 @@ img {
 
 .hero .content h1 {
     font-size: 55px;
+    padding-bottom: 75px;
 }
 
 .hero .content p {
@@ -121,9 +131,8 @@ img {
 }
 .logo{
     height:70px;
-    width: 80px;
+    width: 70px;
     padding: 1rem;
-    border-radius: 50%;
     margin-bottom: 15px;
 }
 
@@ -135,6 +144,7 @@ img {
 .img-logo{
     height: 550px;
     width: 600px;
+    
 }
 .btn {
     cursor: pointer;
