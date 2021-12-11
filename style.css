@@ -34,11 +34,18 @@ a {
 h1, h2 {
     font-weight: 300;
     line-height: 1.2;
+    font-family:'Six Caps';
 }
 
+.story{
+    font-size:40px;
+    padding-top: 20px ;
+    text-align: left;
+}
 h4{
     padding: 10px 0;
     text-align: left;
+    font-family:'Six Caps';
 }
 
 p {
@@ -47,6 +54,12 @@ p {
 
 img {
     width: 100%;
+}
+
+#about{
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 300;
 }
 
 /* Navbar */
@@ -103,11 +116,19 @@ img {
     text-align: center;
     height: 100%;
     padding: 0 20px;
+    
 }
 
 .hero .content h1 {
-    font-size: 55px;
-    padding-bottom: 75px;
+    font-size: 75px;
+    padding-bottom: 10px;
+    font-family: 'Lato',sans-serif;
+}
+
+.herop{
+    font-size: 50px;
+    padding-bottom: 60px;
+    font-family: 'Lato',sans-serif;
 }
 
 .hero .content p {
@@ -274,9 +295,12 @@ img {
 
 .serv{
     align-items: center;
-    text-align: center;
+    text-align: right;
     color: #f5f5f5;
     padding-top: 30px;
+    font-size: 50px;
+    margin-right: 80px;
+    
 }
 
 
@@ -414,6 +438,7 @@ img {
   }
 
   .connect {
+      font-family: 'Six Caps';
       font-size: 80px;
       text-align: start;
       margin-left: 150px;
@@ -472,4 +497,41 @@ img {
     font-size: 60px;
 }
 
+.contthact{
+    padding: 25px 0;
+}
+.project-contact{
+    text-align: center;
+    padding: 15px ;
+    background-color: #ffc033;
+}
 
+.project-contact h2{
+    font-size: 60px;
+    padding-top: 15px;
+    color: #040404;
+    font-family: 'Lato';
+}
+
+.project-contact p{
+    font-size: 30px;
+    padding-bottom: 25px;
+    color: #040404;
+    font-family: 'Lato';
+}
+
+.projbtn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #040404;
+    border: #040404 2px solid;
+    border-radius: 5px;
+}
+    
+.projbtn:hover {
+    opacity: 0.9;
+    border: #F5f5f5 2px solid;
+    color: #040404;
+    transition: all .3s ease-in-out;
+}

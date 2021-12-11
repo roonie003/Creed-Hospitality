@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Six+Caps&display=swap');
 
 * {
     box-sizing: border-box;
@@ -76,7 +77,8 @@ ul {
 .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); 
+    grid-gap: 15px;
+   
 }
   
 .item {
@@ -116,7 +118,7 @@ ul {
 .item-image:before {
     content: '';
     display: block;
-    padding-top: 75%;
+    padding-top: 90%;
     overflow: hidden; 
 }
 .item-image img {
@@ -159,28 +161,49 @@ ul {
     cursor: pointer;
     display: inline-block;
     padding: 10px 30px;
-    color: #f5f5f5;
-    border: #ffc033 2px solid;
+    color: #040404;
+    border: #040404 2px solid;
     border-radius: 5px;
 }
     
 .btn:hover {
     opacity: 0.9;
     border: #F5f5f5 2px solid;
-    color: #ffc033;
+    color: #040404;
     transition: all .3s ease-in-out;
+}
+
+.contthact{
+    padding: 25px 0;
 }
 .project-contact{
     text-align: center;
     padding: 15px ;
+    background-color: #ffc033;
 }
 
 .project-contact h2{
     font-size: 60px;
+    color: #040404;
 }
 
 .project-contact p{
     font-size: 30px;
     padding-bottom: 25px;
+    color: #040404;
 }
 
+.group-heading{
+    text-align: left;
+    padding: 20px;
+    font-family: 'Six Caps';
+    font-size: 70px;
+}
+
+.text-primary{
+    color: #ffc033;
+}
+
+.footer{
+    text-align: center;
+}
