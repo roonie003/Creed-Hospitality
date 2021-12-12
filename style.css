@@ -97,7 +97,15 @@ img {
 }
 
 .navbar .logo {
-    font-size: medium;
+    font-size: 60px;
+    display: inline-block;
+}
+
+#logo{
+    height:70px;
+    width: 70px;
+    display: inline-block;
+    padding-top: 5px;
 }
 
 /* Header */
@@ -150,12 +158,8 @@ img {
 .hero * {
     z-index: 10;
 }
-.logo{
-    height:70px;
-    width: 70px;
-    padding: 1rem;
-    margin-bottom: 15px;
-}
+
+
 
 .backhome{
     padding: 1rem;
