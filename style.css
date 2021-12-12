@@ -116,6 +116,8 @@ img {
     color: #f5f5f5;
 }
 
+
+
 .hero .content {
     display: flex;
     flex-direction: column;
@@ -152,14 +154,37 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.7);
 }
 
 .hero * {
     z-index: 10;
 }
 
+.about{
+    background: url('https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp') no-repeat center center/cover;
+    height: 40vh;
+}
 
+.contact1{
+    background: url('https://img.freepik.com/free-photo/tasty-espresso-served-cup-with-coffee-beans-around-spoon-view-from-dark-background-banner_1220-5751.jpg?size=626&ext=jpg') no-repeat center center/cover;
+    height: 40vh;
+}
+
+.services{
+    background: url('https://c4.wallpaperflare.com/wallpaper/364/794/528/colorful-food-sweets-dessert-wallpaper-preview.jpg') no-repeat center center/cover;
+    height: 40vh;
+}
+
+.projects{
+    background: url('https://i.pinimg.com/originals/58/ec/57/58ec5744b0f11cc03a8d2bccd5cfafc0.jpg') no-repeat center center/cover;
+    height: 40vh;
+}
+
+.career{
+    background: url('https://t3.ftcdn.net/jpg/02/81/50/18/360_F_281501867_XI5OBa4UuGVxMbv5gNLCcCkPDjsX6r0U.jpg') no-repeat center center/cover;
+    height: 40vh;
+}
 
 .backhome{
     padding: 1rem;
