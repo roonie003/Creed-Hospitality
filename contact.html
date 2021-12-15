@@ -21,7 +21,19 @@
           <ul>
             <li><a href="index.html" >Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
+            <div class="dropdown">
+              <button class="dropbtn">Services 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Financial Projections and Feasibility Analysis</a>
+                <a href="#">Location Surveying</a>
+                <a href="#">Menu Development</a>
+                <a href="#">Set up and Space configuration</a>
+                <a href="#">Human Resources </a>
+                <a href="#">Compliance/Legal </a>
+              </div>
+            </div> 
             <li><a href="projects.html">Projects</a></li>
             <li><a href="careers.html">Careers</a></li>
             <li><a href="contact.html"class="current">Contact</a></li>
@@ -33,7 +45,63 @@
         <h1>Contact Us</h1>
       </div>
     </header>
-
+    <h2 class="about-txt">"Dream big, but don’t forget to wake up and do the work"</h2>
+    <div id="contact"class="contpage">Are you ready to start your Hospitalty journey with us?</div>
+        
+<section id="contact" class="contact flex-columns">
+    <div class="row">
+      <div class="column">
+        <div class="column-1">
+            
+        <div class="call">
+           <h3><i class="fas fa-map-marker-alt"></i>Location</h3>
+           <p>262 Florida Road Morningside Durban, South Africa</p>
+        </div>
+        <div class="call">
+            <h3><i class="far fa-envelope"></i>Email Us</h3>
+            <p>kuda@creedhospitality.co.za</p>
+         </div>
+         <div class="call">
+            <h3><i class="fas fa-phone-alt"></i>Call Us</h3>
+            <p>+27 63 237 4998</p>
+         </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="column-2">
+          <div class="contact">
+              <div id="container">
+                <h2>Let's Connect</h2>
+                  <form action="#" method="post" id="contact_form">
+                      <div class="name">
+                          <label for="name"></label>
+                          <input type="text" placeholder="name" name="name" id="name_input" required>
+                      </div>
+                      <div class="email">
+                          <label for="email"></label>
+                          <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+                      </div>
+                      <div class="subject">
+                          <label for="subject"></label>
+                      <select placeholder="subject line" name="subject" id="subject_input" required>
+                          <option disabled hidden selected>subject</option>
+                          <option>Book a consultation</option>
+                          <option>Need help with my restaurant</option>
+                          <option>Thank you for your work</option>
+                      </select>
+                      </div>
+                      <div class="message">
+                          <label for="message"></label>
+                          <textarea name="message" placeholder="message" id="message_input" cols="30" rows="5" required></textarea>
+                      </div>
+                      <div class="submit">
+                          <input type="submit" value="submit" id="form_button"/>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+</section>
 
 
     <footer class="footer">
