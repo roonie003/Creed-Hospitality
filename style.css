@@ -624,3 +624,30 @@ img {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .bord{
+      border-left: #f5f5f5 1px solid;
+      padding: 20px;
+  }
+
+  .brd{
+      text-align: justify;
+      font-family: 'Lato', sans-serif;
+      padding: 30px;
+      margin-left: 10px;
+  }
+
+  .brd ul li{
+      list-style: none;
+  }
+
+  .brd ul li:hover{
+    color: #ffc033;
+    transition: all 3s ease-out;
+}
+
+.brd2{
+    margin-left: 20px;
+    padding: 0 20px;
+    font-size: 18px;
+}
