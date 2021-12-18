@@ -260,11 +260,7 @@ img {
     height: 100%;
 }
 
-.flex-columns img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 .flex-columns .column-2 {
     display: flex;
@@ -651,3 +647,57 @@ img {
     padding: 0 15px;
     font-size: 18px;
 }
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit:cover;
+}
+
+
+.carousel {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    height: 550px;
+    width: 485px;
+    overflow: hidden;
+    margin: 70px 40px;
+    padding-bottom: 10px;
+    
+
+}
+
+.image-container{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+
+.btn-primary{
+    background-color: #040404;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    width: 49.5%;
+    
+}
+
+
+.btn-primary:hover {
+    opacity: 0.9;
+    border: #ffc033 solid 2px;
+
+}
+
+.btn-primary:focus {
+    outline: none;
+}
+ 
+
+

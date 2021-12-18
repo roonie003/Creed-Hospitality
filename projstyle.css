@@ -173,7 +173,10 @@ ul {
     padding-right: 10px;
 }
 
-
+p {
+    font-weight: 600;
+    font-size: 20px;
+}
 
 .footer {
         background-color: #040404;
