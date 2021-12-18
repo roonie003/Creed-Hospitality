@@ -52,38 +52,43 @@
       last 12months South Africa.<br><br> Fill in the simple form and let us embark on the next journey
       together :
     </p>
-    <div class="column">
-      <div class="column-2">
-          <div class="contact">
-              <div id="container">
-                <h2>Apply Here</h2>
-                  <form method="post" action="email.php" id="contact_form">
-                      <div class="name">
-                          <label for="name"></label>
-                          <input type="text" placeholder="Name" name="name" id="name_input" required>
-                      </div>
-                      <div class="email">
-                          <label for="email"></label>
-                          <input type="email" placeholder="E-mail" name="email" id="email_input" required>
-                      </div>
-                      <div>
-                        <div class="name">
-                          <label for="name"></label>
-                          <input type="text" placeholder="Current Position" name="name" id="name_input" required>
-                        </div>
-                        <div class="email">
-                          <label for="email"></label>
-                          <input type="email" placeholder="Expected Salary" name="email" id="email_input" required>
-                      </div>
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+          
+          <select name="years" placeholder="Years of Experience" id="years" required>
+             <option value="">> 1 year</option>
+             <option value="2-3 years">2-3 years</option>
+             <option value="4-6 years">4-6 years</option>
+             <option value="7 years >">7 years ></option>
+         </select>
                         
-                      <label for="lang"></label>
-                         <select name="years" placeholder="Years of Experience" id="years" required>
-                            <option value="">> 1 year</option>
-                            <option value="2-3 years">2-3 years</option>
-                            <option value="4-6 years">4-6 years</option>
-                            <option value="7 years >">7 years ></option>
-                        </select>
-                      </div>
+                     
                       
                       <div class="submit">
                           <input type="submit" value="Apply" id="form_button"/>

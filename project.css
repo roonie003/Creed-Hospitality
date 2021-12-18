@@ -207,3 +207,34 @@ ul {
 .footer{
     text-align: center;
 }
+
+@media (max-height: 580px) {
+    #header-home .header-content 
+    {
+        padding-top: 3rem; } 
+    .cont{
+        grid-template-columns: repeat(1,1fr);
+        }
+    .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+            grid-column:span 1;
+        }
+}
+      
+@media (max-height: 330px) {
+    #header-home .header-content h1 
+    {
+        font-size: 2rem; } 
+}
+
+@keyframes move-down{
+
+    0%{
+        top:10%;
+    }
+    50%{
+        top:35%;
+    }
+    100%{
+        top:50%;
+    }
+}
