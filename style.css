@@ -660,7 +660,7 @@ img{
     height: 550px;
     width: 485px;
     overflow: hidden;
-    margin: 70px 40px;
+    margin: 70px 120px;
     padding-bottom: 10px;
     
 
@@ -670,6 +670,7 @@ img{
     display: flex;
     transform: translateX(0);
     transition: transform 0.5s ease-in-out;
+
 
 }
 
