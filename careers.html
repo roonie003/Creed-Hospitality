@@ -42,85 +42,87 @@
       </div>
     
       <div class="content">
-        <h1>Join Us</h1>
+        <h1 class="heroa">Join Us</h1>
       </div>
     </header>
 
     <h2 class="about-txt">"Are you ready to serve"</h2>
     <p class="about-para">
       To date <span class="text-primary">Creed </span>hospitality has placed over 50 hospitality profesionals across resturants in the
-      last 12months South Africa.<br><br> Fill in the simple form and let us embark on the next journey
-      together :
-    </p>
-    <section id="contact-a" class="text-center py-3">
-      <div class="container">
-        <form action="https://formsubmit.co/job@creedhospitality.co.za" method="POST"></form>
+      last 12months South Africa. <br><br>Fill in the simple form and let us embark on the next journey together :</h2>
+    <section id="contact-a" class="text-center">
+      <div class="container-career">
+        <form action="https://formsubmit.co/job@creedhospitality.co.za" method="POST" class="callback-form">
         <input type="hidden" name="_next" value="https://creedhospitality.co.za/thankyou.html">
-          <div class="text-fields">
+        <h2>Apply Here</h2>
+          <div class="form-control">
+            <label for="name"></label>
             <input
               type="text"
-              class="text-input name-input"
-              placeholder="Name"
               name="name"
+              id="name"
+              placeholder="Name"
             />
+          </div>
+          <div class="form-control">
+            <label for="email"></label>
             <input
               type="email"
-              class="text-input email-input"
-              placeholder="Email Address"
               name="email"
+              id="email"
+              placeholder="Email"
             />
-           
-            
-            <input
-              type="text"
-              class="text-input phone-input"
-              placeholder="Phone Number"
-              name="phone"
-            />
-
-            
-
-            <input
-            type="text"
-            class="text-input position-input"
-            placeholder="Highest position held"
-            name="position"
-          />
-
-          <input
-              type="text"
-              class="text-input salary-input"
-              placeholder="Salary Expectations"
-              name="salary"
-            />
-
-          <select name="years" placeholder="Years of Experience" id="years" class="text-input years-input"required>
-             <option value=">1 year">Years of Experience</option>
-             <option value=">1 year">> 1 year</option>
-             <option value="2-3 years">2-3 years</option>
-             <option value="4-6 years">4-6 years</option>
-             <option value="7 years >">7 years ></option>
-         </select>
-          
-         
-        </div>          
-                      
-          <div>
-              <button type="submit" value="Apply" id="form_button">Apply</button>
-            </div>
-                  </form>
-              </div>
           </div>
+          <div class="form-control">
+            <label for="phone"></label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Phone"
+            />
+          </div>
+          <div class="form-control">
+            <label for="position"></label>
+            <input
+              type="text"
+              name="position"
+              id="position"
+              placeholder="Highest position held"
+            />
+          </div>
+          <div class="form-control">
+            <label for="salary"></label>
+            <input
+              type="text"
+              name="salary"
+              id="salary"
+              placeholder="Salary Expectations"
+            />
+          </div>
+          <div class="form-control">
+            <label for="experience">Years of Experience</label>
+            <select class="form-control">
+              <option>> 1 year</option>
+              <option>2 -3 years</option>
+              <option>4 -5 years</option>
+              <option>6 years></option>
+            </select>
+          </div>
+          <input type="submit" value="Apply" id="submit" class="btn" />
+        </form>
       </div>
-</section>
 
-    <footer class="footer">
-        <p>Creed Hospitality &copy; 2022 designed by <a href="https://www.roonie.online">Roonie</a></p>
-    </footer>
-    
-    
-    
-    
+    </section>
+
+<footer id="main-footer">
+  <div class="footer-content container_footer">
+    <p>Creed Hospitality &copy; 2022 designed by <a href="https://www.roonie.online">Roonie</a></p>
+    <div class="social">
+     <a href="https://www.linkedin.com/company/77725248/admin/"><i class="fab fa-linkedin"></i></a> 
+    </div>
+  </div>
+</footer>
     
     <script src="app.js"></script>
     <script src="script.js"></script>

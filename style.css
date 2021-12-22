@@ -129,7 +129,13 @@ img {
     
 }
 
-.hero .content h1 {
+.hero .content .heroh {
+    font-size: 75px;
+    padding-top: 10px;
+    font-family: 'Lato',sans-serif;
+}
+
+.hero .content .heroa {
     font-size: 75px;
     padding-top: 10px;
     font-family: 'Lato',sans-serif;
@@ -141,11 +147,7 @@ img {
     font-family: 'Lato',sans-serif;
 }
 
-.hero .content p {
-    font-size: 23px;
-    max-width: 600px;
-    margin: 20px 0 30px;
-}
+
 
 .hero::before {
     content: '';
@@ -180,6 +182,7 @@ img {
     background: url('https://i.pinimg.com/originals/58/ec/57/58ec5744b0f11cc03a8d2bccd5cfafc0.jpg') no-repeat center center/cover;
     height: 40vh;
 }
+
 
 .career{
     background: url('https://t3.ftcdn.net/jpg/02/81/50/18/360_F_281501867_XI5OBa4UuGVxMbv5gNLCcCkPDjsX6r0U.jpg') no-repeat center center/cover;
@@ -717,34 +720,39 @@ img{
     outline: none;
 }
  
-
-#contact-a .text-fields {
-    display: grid;
-    grid-template-areas: 'name email' 'phone position' 'salary years';
-    grid-gap: 1.2rem;
-    margin-bottom: 1.2rem; }
-    #contact-a .text-fields .name-input {
-      grid-area: name; }
-    #contact-a .text-fields .email-input {
-      grid-area: email; }
-    #contact-a .text-fields .phone-input {
-      grid-area: phone; }
-    #contact-a .text-fields .position-input {
-      grid-area: position; }
-    #contact-a .text-fields .salary-input {
-        grid-area: salary; }
-
-  
-  button[type='submit'] {
-    width: 50%; 
-   
+.callback-form {
+    width: 60%;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-#form_button{
-    align-items: center;
-    justify-items: center;
-    margin-left: 400px;
-    padding-top: 20px;
+.callback-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+    margin-bottom: 15px;
+}
+
+.callback-form input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border-bottom: #ffc033 1px solid;
+}
+
+.callback-form input:focus {
+    outline-color: #ffc033;
+}
+
+.callback-form .btn {
+    padding: 12px 0;
+    margin-top: 20px;
+    background: #040404;
+    color: #F5f5f5;
 }
 
   
@@ -754,8 +762,33 @@ img{
         flex-direction: column;
         height: 100px;
         padding: 10px;
-        margin: 15px;
-        font-size: 10px;
+        margin: 0 10px;
+        font-size: 12px;
+    }
+
+    .about{
+        height:auto;
+    }
+  
+    #contact-a .text-fields .name-input,
+    #contact-a .text-fields .email-input, 
+    #contact-a .text-fields .phone-input, 
+    #contact-a .text-fields .position-input, 
+    #contact-a .text-fields .salary-input,
+    #contact-a .text-fields .years-input{
+        font-size: 14px;
+    }
+
+   
+
+    .herop {
+        font-size: 20px;
+    }
+
+    .heroh {
+        font-size: 40px;
+        font-family: 'Lato';
+        padding-bottom: 10px;
     }
 
     .flex-items {
@@ -772,19 +805,35 @@ img{
     .counter-container {
         font-size: 15px;
         margin: 5px;
-        justify-content: space-between;    
+        justify-content: space-evenly;    
+    }
+
+    .call{
+        align-items: center;
+        justify-items: center;
+        margin-right: 180px;
+    }
+
+    .connect {
+        margin: 0 100px;
+        font-size: 70px;
+    }
+
+    .connect2 {
+        margin: 0 100px;
+        font-size: 30px;
     }
 
     .bord{
         border: none;
     }
-    #main-footer {
-        height: 7rem;
-     }
-    #main-footer .footer-content {
+  
+    
+    .footer .footer-content {
           flex-direction: column;
           padding: 1rem;
           height: 5rem; 
+          text-align: center;
     } 
    
 }

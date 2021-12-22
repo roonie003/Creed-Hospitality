@@ -200,16 +200,49 @@ ul {
     font-size: 70px;
 }
 
+
 .text-primary{
     color: #ffc033;
 }
 
-.footer{
-    text-align: center;
+.container_footer {
+    max-width: 1280px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden; }
+#main-footer {
+    background: #040404;
+    color: #fff;
+    height: 5rem; 
+}
+#main-footer .footer-content {
+      display: flex;
+      justify-content: space-between;
+      height: 5rem;
+      align-items: center; 
+    }
+#main-footer .footer-content .social .fab {
+        margin-right: 1rem;
+        height: 40px;
+        width: 40px;
+        border: #ffc033 2px solid;
+        border-radius: 50%;
+        line-height: 20px;
+        text-align: center;
+        padding: 0.5rem; 
+        color: #ffc033;
+    }
+
+
+
+
+.footer a:hover {
+    color: #ffc033;
 }
 
-@media (max-height: 580px) {
-    #header-home .header-content 
+@media (max-width: 680px) {
+   
+    #header-home 
     {
         padding-top: 3rem; } 
     .cont{
@@ -218,12 +251,28 @@ ul {
     .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
             grid-column:span 1;
         }
+
+
+    .projects{
+            height:40vh;
+            background-repeat: no-repeat;
+        }
+      
+    
+       .projects .heroh{
+           font-size: 20px;
+           font-family: 'Lato';
+       }
+    
+    
 }
       
-@media (max-height: 330px) {
-    #header-home .header-content h1 
+@media (max-width: 540px) {
+    #header-home  
     {
-        font-size: 2rem; } 
+        font-size: 1.5em; } 
+  
+    
 }
 
 @keyframes move-down{
